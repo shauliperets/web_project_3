@@ -1,0 +1,95 @@
+.about {
+  background-image: url(../images/about_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: calc(100% - 50px);
+  height: 740px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.about:hover {
+  opacity: 0.8;
+}
+
+.about__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #fffdfd;
+  padding: 0 0 32px 0;
+  margin: 0;
+}
+
+.about__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 0 0 32px 0;
+  margin: 0;
+}
+
+.about__button {
+  width: 137px;
+  height: 48px;
+  background: #0278fe;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.about__button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    max-width: 768px;
+    max-height: 746px;
+  }
+
+  .about__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+
+  .about__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .place__button {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about {
+    max-width: 320px;
+    max-height: 254px;
+  }
+
+  .about__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .about__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .place__button {
+    font-size: 18px;
+    line-height: 22px;
+    width: 288px;
+  }
+}
