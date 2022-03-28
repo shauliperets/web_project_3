@@ -34,6 +34,11 @@
   margin: 0;
 }
 
+.about__paragraph {
+  margin: 0;
+  padding: 0;
+}
+
 .about__button {
   width: 137px;
   height: 48px;
