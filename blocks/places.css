@@ -60,6 +60,23 @@
   background: #0063d2;
 }
 
+@media screen and (max-width: 1000px) {
+  .place {
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: auto 350px 48px;
+    grid-gap: 38px 30px;
+  }
+
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .place__image {
+    width: 350px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: repeat(2, 340px);
