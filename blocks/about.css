@@ -53,6 +53,29 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1000px) {
+  .about {
+    max-width: 800px;
+    max-height: 760px;
+    border: 1px SOLID RED;
+  }
+
+  .about__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+
+  .about__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .place__button {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .about {
     max-width: 768px;

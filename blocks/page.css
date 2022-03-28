@@ -21,8 +21,7 @@
   flex-direction: column;
   background-color: #2a2c2f;
   color: #ffffff;
-  /*font-family: Inter, Arial, sans-serif;*/
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   padding: 34px 0 24px 0;
   margin: 0 auto;
   max-width: 1280px;
@@ -32,8 +31,8 @@
 @media screen and (max-width: 1000px) {
   .page {
     padding: 34px 0 24px 0;
-    max-width: 768px;
-    min-width: 760px;
+    max-width: 990px;
+    min-width: 900px;
   }
 }
 
