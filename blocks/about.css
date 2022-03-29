@@ -1,7 +1,7 @@
 .about {
   background-image: url(../images/about_background.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: calc(100% - 50px);
   height: 740px;
   text-align: center;
@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  padding-bottom: 48px;
 }
 
 .about:hover {
@@ -57,7 +58,6 @@
   .about {
     max-width: 800px;
     max-height: 760px;
-    border: 1px SOLID RED;
   }
 
   .about__title {

@@ -54,15 +54,15 @@
 @media screen and (max-width: 1000px) {
   .header__title {
     max-width: 720px;
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 70px;
+    line-height: 74px;
     padding: 88px 0 32px 0;
   }
 
   .header__subtitle {
-    width: 288px;
-    font-size: 16px;
-    line-height: 20px;
+    width: 720px;
+    font-size: 26px;
+    line-height: 30px;
   }
 
   .header__image {
