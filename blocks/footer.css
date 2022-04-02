@@ -1,9 +1,26 @@
 .footer {
   margin: 0 auto;
-  max-height: 16px;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #ffffff;
   padding-top: 92px;
+  padding-bottom: 24px;
+}
+
+.footer__paragraph {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    padding-top: 64px;
+  }
 }

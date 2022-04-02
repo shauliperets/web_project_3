@@ -1,20 +1,20 @@
 .about {
   background-image: url(../images/about_background.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  width: calc(100% - 50px);
-  height: 740px;
+  background-size: cover;
+  max-width: 1184px;
+  min-height: 740px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding-bottom: 48px;
+  opacity: 0.8;
 }
 
 .about:hover {
-  opacity: 0.8;
+  opacity: 0.3;
 }
 
 .about__title {
@@ -48,75 +48,40 @@
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
+  border: 0;
 }
 
 .about__button:hover {
   cursor: pointer;
+  background: #0063d2;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .about {
-    max-width: 800px;
-    max-height: 760px;
-  }
-
-  .about__title {
-    font-size: 72px;
-    line-height: 76px;
-  }
-
-  .about__subtitle {
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  .place__button {
-    font-size: 18px;
-    line-height: 22px;
+    max-width: 900px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .about {
-    max-width: 768px;
-    max-height: 746px;
-  }
-
-  .about__title {
-    font-size: 72px;
-    line-height: 76px;
-  }
-
-  .about__subtitle {
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  .place__button {
-    font-size: 18px;
-    line-height: 22px;
+    max-width: 720px;
+    min-height: 746px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .about {
     max-width: 320px;
-    max-height: 254px;
+    min-height: 254px;
   }
 
   .about__title {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 52px;
+    line-height: 56px;
   }
 
   .about__subtitle {
-    font-size: 14px;
-    line-height: 16px;
-  }
-
-  .place__button {
-    font-size: 18px;
-    line-height: 22px;
-    width: 288px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }

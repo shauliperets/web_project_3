@@ -1,9 +1,13 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/font.css);
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
+@import url(../blocks/wraper.css);
+@import url(../blocks/caption.css);
 @import url(../blocks/logo.css);
 @import url(../blocks/main.css);
 @import url(../blocks/grid.css);
 @import url(../blocks/places.css);
+@import url(../blocks/place.css);
 @import url(../blocks/about.css);
 @import url(../blocks/footer.css);
