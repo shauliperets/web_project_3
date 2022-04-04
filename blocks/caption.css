@@ -34,8 +34,6 @@
 @media screen and (max-width: 1200px) {
   .caption__title {
     max-width: 720px;
-    font-size: 54px;
-    line-height: 58px;
     padding: 88px 0 32px 0;
   }
 
@@ -52,9 +50,17 @@
   }
 }
 
+@media screen and (max-width: 765px) {
+  .caption__image {
+    width: 700px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .caption__title {
     max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
     padding: 50px 0 16px 0;
   }
 

@@ -1,9 +1,11 @@
 .place {
   display: grid;
+  max-width: 987px;
   gap: 48px 40px;
-  grid-template-columns: repeat(2, 484px);
-  grid-template-rows: auto 460px auto 80px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto 32px;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .place__title {
@@ -47,6 +49,8 @@
 .place__paragraph {
   font-size: 18px;
   line-height: 163%;
+  margin: 0;
+  padding: 0 0 25px 0;
 }
 
 .place__button {
@@ -66,10 +70,14 @@
   background: #0063d2;
 }
 
+.place__content > :last-child {
+  padding: 0;
+}
+
 @media screen and (max-width: 1200px) {
   .place {
-    grid-template-columns: repeat(2, 450px);
-    grid-template-rows: auto 450px auto 80px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto 42px;
     gap: 30px 20px;
   }
 
@@ -85,11 +93,6 @@
 }
 
 @media screen and (max-width: 900px) {
-  .place {
-    grid-template-columns: repeat(2, 352px);
-    grid-template-rows: auto 340px auto 70px;
-  }
-
   .place__title {
     max-width: 340px;
     font-size: 42px;
@@ -104,16 +107,28 @@
 @media screen and (max-width: 700px) {
   .place {
     grid-template-columns: 320px;
-    grid-template-rows: auto auto auto auto auto 48px;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 0 0;
+    padding-bottom: 48px;
   }
 
   .place__title {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
+    padding-bottom: 30px;
+  }
+
+  .place__website {
+    padding-bottom: 30px;
   }
 
   .place__image {
     max-width: 320px;
+    padding-bottom: 32px;
+  }
+
+  .place__content > :last-child {
+    padding-bottom: 25px;
   }
 }
