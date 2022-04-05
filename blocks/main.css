@@ -95,23 +95,23 @@
   }
 
   .main__title {
-    max-width: 258px;
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
   }
 
   .main__subtitle {
-    max-width: 258px;
+    max-width: 288px;
     font-size: 24px;
     line-height: 30px;
   }
 
   .main__source {
-    max-width: 258px;
+    max-width: 288px;
   }
 
   .main__content {
-    max-width: 248px;
+    max-width: 288px;
     font-size: 16px;
     line-height: 163%;
   }
