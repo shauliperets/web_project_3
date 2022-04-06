@@ -15,7 +15,7 @@
 }
 
 .main__subtitle {
-  max-width: 690px;
+  max-width: 720px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -25,7 +25,7 @@
 }
 
 .main__source {
-  max-width: 690px;
+  max-width: 720px;
   text-align: right;
   margin: 0;
   padding: 10px 0 32px 0;
@@ -35,7 +35,7 @@
 }
 
 .main__content {
-  max-width: 690px;
+  max-width: 720px;
   padding: 0;
   margin: 0;
   font-weight: 400;
