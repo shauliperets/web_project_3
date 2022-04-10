@@ -1,12 +1,10 @@
 .place {
   display: grid;
-  max-width: 987px;
   gap: 48px 40px;
   grid-template-columns: repeat(460px, 484px);
   grid-template-rows: auto 460px 60px auto;
   justify-content: center;
   margin: 0 auto;
-  padding: 42px;
 }
 
 .place__title {
