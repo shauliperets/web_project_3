@@ -7,9 +7,3 @@
   margin: 0 auto;
   min-width: 320px;
 }
-
-@media screen and (max-width: 700px) {
-  .page {
-    max-width: 320px;
-  }
-}
