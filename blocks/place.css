@@ -5,6 +5,7 @@
   grid-template-rows: auto 460px 60px auto;
   justify-content: center;
   margin: 0 auto;
+  padding-bottom: 45px;
 }
 
 .place__title {
@@ -94,6 +95,7 @@
     grid-template-columns: repeat(340px, 352px);
     grid-template-rows: auto 340px 60px auto;
     gap: 48px 28px;
+    padding-bottom: 45px;
   }
 
   .place__title {
@@ -121,14 +123,17 @@
   }
 
   .place__title {
-    max-width: 288px;
+    margin: 0 auto;
+    width: 288px;
     font-size: 32px;
     line-height: 35px;
-    padding-bottom: 30px;
+    padding: 0 0 30px 0;
   }
 
   .place__website {
+    max-width: 288px;
     padding-bottom: 30px;
+    margin: 0 auto;
   }
 
   .place__image {
@@ -137,6 +142,8 @@
   }
 
   .place__content {
+    max-width: 288px;
+    margin: 0 auto;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
@@ -145,6 +152,7 @@
   }
 
   .place__button {
-    width: 320px;
+    margin: 0 auto;
+    width: 288px;
   }
 }
