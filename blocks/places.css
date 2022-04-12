@@ -1,13 +1,13 @@
 .places {
   margin: 0 auto;
   max-width: 987px;
-  padding-bottom: 22px;
+  padding-bottom: 73px;
 }
 
 @media screen and (max-width: 900px) {
   .places {
     max-width: 720px;
-    padding-bottom: 18px;
+    padding-bottom: 43px;
   }
 }
 
